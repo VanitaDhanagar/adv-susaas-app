@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "name": "Sustainable SaaS API",
+      "description": "API for Sustainable SaaS App",
+      "bindable": true,
+      "plans": [
+        {
+          "name": "default",
+          "description": "Standard Plan",
+          "id": "e857a916-7c19-44f3-8d61-9f16b77030ee"
+        },
+        {
+          "name": "premium",
+          "description": "Premium Plan",
+          "id": "52f956e0-fc8e-4727-9316-5480685119f9"
+        }
+      ],
+      "id": "95e78d52-e121-491f-8c6c-1760ca555e83"
+    }
+  ]
+}

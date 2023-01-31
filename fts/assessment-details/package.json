@@ -1,0 +1,4 @@
+{
+    "name": "susaas-ext",
+    "extends": "susaas"
+  }
