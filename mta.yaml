@@ -13,6 +13,7 @@ build-parameters:
     - builder: custom
       commands:
         ### Deployment w/o csv sample files ###
+        - npm i
         - npx -p @sap/cds-dk cds build --profile production
 
         ### Deployment w/ csv sample files ###
