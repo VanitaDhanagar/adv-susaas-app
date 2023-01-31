@@ -256,13 +256,7 @@ modules:
           app-name: ${app-name}
           srv-url: ${default-url}
 
-  # ----------------- API Route Service -------------------------------------------
-  - name: susaas-as-route-service
-  # -------------------------------------------------------------------------------
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: apimanagement-apiportal
-      service-plan: apim-as-route-service
+
     
   # --------------------- API MODULE ---------------------------
   - name: susaas-api-srv
