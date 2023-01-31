@@ -92,7 +92,7 @@ modules:
       builder: custom
       ignore: [ 'node_modules/',  'default-env.json', 'manifest*.yml' ]
       commands:
-      - npm ci
+      - npm i
       - npm run build:cf
       supported-platforms: []
     
@@ -104,7 +104,7 @@ modules:
       builder: custom
       ignore: [ 'node_modules/',  'default-env.json', 'manifest*.yml' ]
       commands:
-      - npm ci
+      - npm i
       - npm run build:cf
       supported-platforms: []
   
@@ -116,7 +116,7 @@ modules:
       builder: custom
       ignore: [ 'node_modules/',  'default-env.json', 'manifest*.yml' ]
       commands:
-      - npm ci
+      - npm i
       - npm run build:cf
       supported-platforms: []
   
@@ -128,7 +128,7 @@ modules:
       builder: custom
       ignore: [ 'node_modules/',  'default-env.json', 'manifest*.yml' ]
       commands:
-        - npm ci
+        - npm i
         - npm run build:cf
       supported-platforms: []
 
