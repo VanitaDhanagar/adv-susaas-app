@@ -32,7 +32,7 @@ steps:
       susaas-sb-credentials: susaas-sb-credentials
     
 
-tmsUpload:  # only relevant once you finish the SAP Cloud Transport Management Expert Scope chapter
+tmsUpload:
   nodeName: 'TEST'
   credentialsId: 'tms'
   customDescription: 'TMS Upload'
