@@ -33,6 +33,6 @@ steps:
     
 
 tmsUpload:  # only relevant once you finish the SAP Cloud Transport Management Expert Scope chapter
-  nodeName: 'QA'
+  nodeName: 'TEST'
   credentialsId: 'tms'
   customDescription: 'TMS Upload'
