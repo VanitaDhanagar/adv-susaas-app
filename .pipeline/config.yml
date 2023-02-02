@@ -12,7 +12,7 @@ stages:
 
   Release:
     cloudFoundryDeploy: true
-    tmsUpload: true
+    #tmsUpload: true
 
 steps:
   npmExecuteLint:
@@ -32,7 +32,7 @@ steps:
       susaas-sb-credentials: susaas-sb-credentials
     
 
-tmsUpload:
-  nodeName: 'TEST'
-  credentialsId: 'tms'
-  customDescription: 'TMS Upload'
+# tmsUpload:
+#   nodeName: 'TEST'
+#   credentialsId: 'tms'
+#   customDescription: 'TMS Upload'
